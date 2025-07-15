@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;}
+
+    header{
+        display: flex;
+        
+        width: 100%;
+        height: 5rem;
+    }
+ header   h1{
+        margin-left: 2.3rem;
+        margin-top: 2rem;
+        color: rgba(8, 46, 24, 0.78);
+        font-size: 1.2rem;
+    }
+   
+ .services{
+    margin-top: 1.8rem;
+    margin-left: 92rem;
+    font-size: 0.7rem;
+    color: rgb(2, 38, 2);
+    cursor: pointer;
+ }
+.bookbutton{
+    border-radius: 5rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+   color: #fff;
+   font-size: 0.8rem;
+   background-color: rgb(6, 93, 6);
+  text-align: center;
+  height: 2.5rem;
+  width: 8rem;
+  cursor: pointer;
+   transition: 0.7s;
+}
+.bookbutton:hover{
+ background-color: #fff;
+ color: rgba(8, 46, 24, 0.78);
+ 
+}
+
+
+
+
+
+.aboutmenu{
+    
+      background-color: rgba(178,247,199,255);
+      width: 100%;
+      height: 45rem;
+    }
+.aboutdown{
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    
+}
+.aboutleft{
+    width: 75rem;
+    height: 40rem;
+    
+}
+.aboutleft h1{
+    margin-top: 12rem;
+    margin-left: 8rem;
+    font-size: 4.9rem;
+    color: rgba(8, 46, 24, 0.78);
+}
+.aboutleft h3{
+    color: rgba(8, 46, 24, 0.78);
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+.aboutleft span{
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    font-size: 0.8rem;
+    background-color: rgb(6, 93, 6);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 2rem;
+     transition: 0.7s;
+}
+.aboutleft span:hover{
+    background-color: #fff;
+ color: rgba(8, 46, 24, 0.78);
+
+ cursor: pointer;
+}
+
+
+
+
+.aboutright{
+    width: 45rem;
+    height: 40rem;
+    
+}
+.aboutright img{
+    justify-content: center;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    align-items: center;
+    width: 35rem;
+    
+   
+}
+
+.servicesmenu{
+   
+    
+    width: 100%;
+    height: 35rem;
+}
+.servicestext{
+    color: rgba(8, 46, 24, 0.78);
+    display: inline-block;
+    margin-top: 6rem;
+    margin-left: 58rem;
+}
+.servicesmenu h1{
+    margin-left: 33rem;
+    margin-top: 2rem;
+    font-size: 4rem;
+    color: rgba(8, 46, 24, 0.78);
+}
+.sincetext{
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 48rem;
+color: rgba(8, 46, 24, 0.78);
+}
+.schedulebutton{
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    margin-left: 56rem;
+   color: #fff;
+   font-size: 0.8rem;
+   background-color: rgb(6, 93, 6);
+  text-align: center;
+  width: 8rem;
+  cursor: pointer;
+   transition: 0.7s;
+}
+.schedulebutton:hover{
+    background-color: rgb(122, 242, 174);
+ color: rgba(0, 0, 0, 0.78);
+
+ cursor: pointer;
+}
+.taxdiv{
+    
+    width: 100%;
+    height: 33rem;
+}
+.taxmenu{
+    display: flex;
+    margin-left: 15rem;
+    background-color: rgba(215,253,217,255);
+    height: 30rem;
+    width: 65rem;
+    border-radius: 1rem;
+}
+.taxleft img{
+    margin-top: 4rem;
+    justify-content: center;
+    width: 30rem;
+}
+.taxright h1{
+    margin-left: 5rem;
+    margin-top: 6rem;
+    color: rgba(8, 46, 24, 0.78);
+}
+.taxright h6{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    color: rgba(8, 46, 24, 0.78);
+    font-size: 0.9rem;
+}
+.taxright span{
+   
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-top: 3rem;
+}
+.taxbutton{
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    background-color: #fff;
+    margin-left: 5rem;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.taxbutton:hover{
+    background-color: rgb(122, 242, 174);
+    color: rgba(0, 0, 0, 0.78);
+}
+
+
+.dependbutton{
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    background-color: #fff;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.dependbutton:hover{
+    background-color: rgb(122, 242, 174);
+    color: rgba(0, 0, 0, 0.78);
+}
+.trustbutton{
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    background-color: #fff;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.trustbutton:hover{
+    background-color: rgb(122, 242, 174);
+    color: rgba(0, 0, 0, 0.78);
+}
+
+
+.irsdiv{
+    
+    width: 100%;
+    height: 33rem;
+}
+.irsmenu{
+    display: flex;
+    margin-left: 40rem;
+    background-color: rgba(215,253,217,255);
+    height: 30rem;
+    width: 65rem;
+    border-radius: 1rem;
+}
+.irsright img{
+    margin-top: 4rem;
+    justify-content: center;
+    width: 30rem;
+}
+.irsleft h1{
+    margin-left: 5rem;
+    margin-top: 6rem;
+    color: rgba(8, 46, 24, 0.78);
+}
+.irsleft h6{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    color: rgba(8, 46, 24, 0.78);
+    font-size: 0.9rem;
+}
+.irsleft span{
+   
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-top: 3rem;
+}
+.taxbutton{
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    background-color: #fff;
+    margin-left: 5rem;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.taxbutton:hover{
+    background-color: rgb(122, 242, 174);
+    color: rgba(0, 0, 0, 0.78);
+}
+
+
+.dependbutton{
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    background-color: #fff;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.dependbutton:hover{
+    background-color: rgb(122, 242, 174);
+    color: rgba(0, 0, 0, 0.78);
+}
+.trustbutton{
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    background-color: #fff;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.trustbutton:hover{
+    background-color: rgb(122, 242, 174);
+    color: rgba(0, 0, 0, 0.78);
+}
+
+
+.bookdiv{
+    
+    width: 100%;
+    height: 33rem;
+}
+.bookmenu{
+    display: flex;
+    margin-left: 15rem;
+    background-color: rgba(221,247,211,255);
+    height: 30rem;
+    width: 65rem;
+    border-radius: 1rem;
+}
+.bookleft img{
+    margin-left: 3rem;
+    margin-top: 4rem;
+    justify-content: center;
+    width: 25rem;
+}
+.bookright h1{
+    margin-left: 5rem;
+    margin-top: 6rem;
+    color: rgba(8, 46, 24, 0.78);
+}
+.bookright h6{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    color: rgba(8, 46, 24, 0.78);
+    font-size: 0.9rem;
+}
+.bookright span{
+   
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-top: 3rem;
+}
+.taxbutton{
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    background-color: #fff;
+    margin-left: 5rem;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.taxbutton:hover{
+    background-color: rgb(122, 242, 174);
+    color: rgba(0, 0, 0, 0.78);
+}
+
+
+.dependbutton{
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    background-color: #fff;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.dependbutton:hover{
+    background-color: rgb(122, 242, 174);
+    color: rgba(0, 0, 0, 0.78);
+}
+.trustbutton{
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    background-color: #fff;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.trustbutton:hover{
+    background-color: rgb(122, 242, 174);
+    color: rgba(0, 0, 0, 0.78);
+}
+footer{
+    display: flex;
+    background-color: rgba(46,79,33,255);
+    width: 100%;
+    height: 23rem;
+}
+.footerleft{
+    
+    height: 23rem;
+    width: 50%;
+    
+}
+.footerleft h1{
+    display: inline-block;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+     color: #fff;
+}
+.footerright{
+    width: 50%;
+    height: 23rem;
+}
+.footerright span{
+    color: rgb(216, 215, 215);
+    display: inline-block;
+    margin-top: 21.3rem;
+    margin-left: 45rem;
+}
